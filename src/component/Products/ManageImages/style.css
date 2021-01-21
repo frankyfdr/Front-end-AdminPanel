@@ -1,0 +1,67 @@
+.Manage-img-container {
+  width: 60%;
+  height: 88vh;
+  position: fixed;
+  top: 5%;
+  background-color: #b9babd;
+  z-index: 1;
+  left: 25%;
+  padding: 1%;
+  border-radius: 10px;
+  -webkit-box-shadow: -1px 1px 16px 2px #000000;
+  box-shadow: -1px 1px 16px 2px #000000;
+  max-width: 600px;
+  display: none;
+}
+.img-container {
+  width: 100%;
+  border: 0.5px solid grey;
+  height: 80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  overflow-y: auto;
+}
+.menu-manager {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  padding: 0 5px;
+}
+
+.btnFile {
+  background-color: var(--btnColor);
+  color: white;
+  border-radius: 10px;
+  max-height: 30px;
+  width: 100%;
+  margin-top: 30%;
+  margin: 3% 0;
+  text-align: center;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.btnFile[name="done"] {
+  margin-left: 15%;
+}
+.btnFile:hover {
+  background-color: white;
+  color: var(--btnColor);
+}
+.img-product-upload {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.img-box {
+  margin: 10px;
+}
+@media screen and (max-width: 768px) {
+  .Manage-img-container {
+    width: 100vw;
+    left: 0%;
+    height: 100vh;
+    top: 0%;
+  }
+}

@@ -1,0 +1,66 @@
+.sideMenu,
+.sideMenu.show {
+  width: 0%;
+  height: 80%;
+  position: relative;
+  transition: 0.6s;
+  height: 100vh;
+  left: -100%;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+  box-shadow: 10px 0px 100px 0px rgba(58, 61, 65, 0.301);
+}
+.sideMenu.show {
+  width: 30%;
+  left: 0%;
+  z-index: 1;
+}
+nav {
+  width: 100%;
+  text-align: center;
+}
+li,
+a {
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+  padding: 10px;
+  color: rgb(142, 142, 142);
+  transition: color 0.3s, background-color 0.3s;
+  transition-property: color, background-color;
+  transition-duration: 0.3s, 0.3s;
+  transition-timing-function: ease, ease-in-out;
+  transition-delay: 0s, 0s;
+}
+ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+li:hover {
+  background-color: rgba(59, 110, 114, 1);
+  color: white;
+}
+a:hover {
+  color: white;
+}
+.sideMenu.on {
+}
+nav {
+  position: relative;
+}
+
+#sideMenu-click {
+  display: none;
+}
+
+#sideMenu-click.on {
+  display: block;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 0;
+}

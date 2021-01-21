@@ -1,0 +1,29 @@
+.dash-main-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 0.3em;
+  background-color: #efefef;
+  padding: 3%;
+  overflow: auto;
+}
+.dash-litics-container > * {
+  margin-bottom: 10px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box-container {
+  background-color: rgba(0, 0, 0, 0.493);
+  width: 80%;
+  height: 30vh;
+  grid-gap: 20px;
+}
+.dash-litics-container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(250px, 1fr));
+}
+.total-sells {
+  color: white;
+}

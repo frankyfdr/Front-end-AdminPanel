@@ -1,0 +1,6 @@
+@media screen and (max-width: 500px) {
+  .cell[name="customer"],
+  .cell[name="items"] {
+    display: none;
+  }
+}

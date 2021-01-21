@@ -1,0 +1,22 @@
+.header {
+  width: 100vw;
+  height: 4rem;
+  display: inline-flex;
+}
+.imgICO {
+  width: 1.2em;
+  margin-left: 1vw;
+}
+.ICO {
+  display: inline-flex;
+  position: relative;
+  float: right;
+  margin: 2%;
+  width: 10%;
+  margin-top: rem;
+}
+#h1 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}

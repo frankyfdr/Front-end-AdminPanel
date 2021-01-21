@@ -1,0 +1,9 @@
+.Main-container {
+  width: 100%;
+  height: 90%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  margin-right: 5px;
+}

@@ -1,0 +1,9 @@
+.BigImg {
+  width: 100%;
+  background-color: grey;
+  height: 20rem;
+}
+#shopNow {
+  position: relative;
+  margin-bottom: 10px;
+}
